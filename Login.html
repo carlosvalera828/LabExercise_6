@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style>
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #E5E4E2;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float:right;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color:;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color:  #E5E4E2;
+}
+a {
+      text-decoration:none;
+}
+#loginbox{
+	margin:auto;
+	margin-top:100px;
+	font-family: Verdana;
+	text-align:center;
+	padding-top: 0;
+	margin-top: 0;
+	height:500px;
+	width:500px;
+	border: 0px solid ;
+	border-radius: 15px;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="">
+<div style="width: 100%; height: 180px; padding-top: 12px; padding-bottom: 12px;  background-color: #C8C8C8;">
+		<table>
+			<tr>
+				<th><img src="http://www.logogarden.com/user_images/logo_1555859_s376lv1l1m_screen_display.png"></th>
+				<th>	
+					<ul>
+  						<li><a href="Signup.html"><font face="Verdana" color="black" >Sign up</font></a></li> 
+   						<li><a href="Login.html"><font face="Verdana" color="black" >Login</font></a></li> 
+						<li><a href="Home.html"><font face="Verdana" color="black">Home</font></a></li>
+					</ul>
+				</th>
+			</tr>
+		</table>
+</div><br><br><br><br>
+<div id=loginbox>
+<br><br>
+<tr>
+	<td>
+				<input type="text" style="width: 260px;" value=" Username" onblur="if (this.value == ' ' || this.value == '') {this.value = ' Username';}" onfocus="if (this.value == ' Username') {this.value = ' ';}">
+				<br><br><br>
+				<input type="text" style="width: 260px;" value=" Password" onblur="if (this.value == ' ' || this.value == '') {this.value = ' Password';}" onfocus="if (this.value == ' Password') {this.value = ' ';}">
+				<br><br><br>
+				<input type="submit" value="Log in" style="width: 260px; background-color:#98AFC7; color: white; border: 1px solid #98AFC7; height: 35px; border-radius: 15px;">
+				<br>
+				<input type="checkbox" value="remember">Remember Me
+				
+		</td>
+</tr>
+</div>
+</form>
+</body>
+</html>
